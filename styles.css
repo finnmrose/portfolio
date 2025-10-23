@@ -1,0 +1,152 @@
+body {
+    
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.line {
+    display: flex;
+    width: 100%;
+
+}
+
+.index {
+    flex: 0 0 30px;
+    text-align: right;
+    border: 3px solid #1e1e1e;
+}
+
+.text {
+    margin-left: 15px;
+    border: 2px solid #1e1e1e;
+    width: 100%;
+}
+
+.text:hover {
+    border: 2px solid #282828;
+}
+
+#icon-bar {
+    background-color: #333333;
+    flex: 0 0 50px;
+    font-size: xx-large;
+}
+
+#icon-bar > ul {
+    margin: 0px;
+    padding: 0px
+}
+
+#icon-bar > ul > li {
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#file-bar {
+    background-color: #252526;
+    flex: 0 0 250px;
+}
+
+#file-bar > div {
+    padding: 10px 0px 0px 5px;
+}
+
+#file-bar > h1 {
+    color: #b6b6b6;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px 0px 0px 20px
+}
+
+#file-bar > div > h2 {
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul > li {
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #2b2d2e;
+}
+
+#header {
+    background-color: #3c3c3c;
+    height: 40px;
+    display: flex;
+    font-size: x-large;
+}
+
+#header > div {
+    color: #b2b2b2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+}
+
+#header > div > i {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+#header > div > span {
+    color: #c8c8c8;
+    font-size: medium;
+    font-weight: 300;
+    text-align: center;
+    background-color: #464646;
+}
+
+#footer {
+    background-color: #007acc;
+    height: 20px;
+}
+
+
+#file-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+#tabs {
+    height: 30px;
+    width: 100%;
+    background-color: #252526;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#tabs > div {
+    border: 1px solid #252526;
+    background-color: #2d2d2d;
+    padding: 5px 25px 10px 10px;
+    font-size: small;
+    cursor: pointer;
+}
+
+#content {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+    text-wrap: wrap;
+}
+
+/* taken from https://stackoverflow.com/a/24993002 */
+.hover_img a { position:relative; }
+.hover_img a span {position: absolute; right:0px; display:none; z-index:99;}
+.hover_img a span img {height: 30vh;}
+.hover_img a:hover span { display:block; }
