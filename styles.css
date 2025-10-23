@@ -145,6 +145,14 @@ li:hover {
     text-wrap: wrap;
 }
 
+a {
+    color: #007acc;
+}
+
+a:visited {
+    color: #007acc;
+}
+
 /* taken from https://stackoverflow.com/a/24993002 */
 .hover_img a { position:relative; }
 .hover_img a span {position: absolute; right:0px; display:none; z-index:99;}
