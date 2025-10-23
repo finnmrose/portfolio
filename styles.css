@@ -58,11 +58,13 @@ body {
     color: #b6b6b6;
     font-weight: 300;
     font-size: 15px;
-    padding: 10px 0px 0px 20px
+    padding: 10px 0px 0px 20px;
+    margin: 0px;
 }
 
 #file-bar > div > h2 {
     font-size: 15px;
+    margin: 0px;
 }
 
 ul {
@@ -143,6 +145,7 @@ li:hover {
     font-family: 'Courier New', Courier, monospace;
     white-space: pre;
     text-wrap: wrap;
+    line-height: 125% ;
 }
 
 a {
